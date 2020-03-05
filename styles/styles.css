@@ -122,3 +122,35 @@ p {
   color: #6892b3;
   padding: 5px 10px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.link-test li a:link {
+  color: blue;
+}
+
+.link-test li a:focus {
+  border: 1px solid red;
+}
+
+.link-test li a:active {
+  color: yellow;
+}
+
+.link-test li a:hover {
+  background-color: #ff00ff;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.link-test li a:visited {
+  color: #094409;
+}
+
+::selection {
+  color: #ffffff;
+  background-color: #000000;
+}
